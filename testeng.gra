@@ -1,0 +1,26 @@
+0.5   Det --> a
+0.5   Det --> the
+1.00000   IN --> of
+0.21429   N --> bone
+0.35714   N --> dog
+0.35714   N --> man
+0.07143   N --> story
+0.42105   NP --> Det NP
+0.49123   NP --> N
+0.08772   NP --> NP PP
+0.79975   PP --> IN NP
+0.20025   PP --> IN S
+0.00011   S --> NP
+0.99989   S --> NP VP
+1	NP --> NP VP
+1.00000   ROOT --> S
+0.45455   V --> bites
+0.18182   V --> gives
+0.36364   V --> like
+0.00000   VP --> NP VP
+0.45965   VP --> V
+0.53747   VP --> VP NP
+0.00144   VP --> VP VP^g_1
+0.00144   VP --> VP^g_2 NP
+1.00000   VP^g_1 --> NP NP
+1.00000   VP^g_2 --> VP NP
