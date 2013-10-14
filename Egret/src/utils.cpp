@@ -3,7 +3,7 @@ string
 intToString(int i)
 {
   stringstream ss;
-  ss<<i; 
+  ss<<i;
   string ans;
   ss>>ans;
   return ans;
@@ -14,7 +14,7 @@ string doubleToString(double i)
   ss.precision(20);
   if(i==0)
 	  return "0.0";
-  ss<<i; 
+  ss<<i;
   string ans;
   ss>>ans;
   return ans;
@@ -35,7 +35,7 @@ string& replaceSubStr(string& in, string oldSub, string newSub)
 	return in;
 }
 
-bool endsWith(char * src, char* tail)
+bool endsWith(char * src, const char* tail)
 {
 	size_t srclen=strlen(src);
 	size_t taillen=strlen(tail);
