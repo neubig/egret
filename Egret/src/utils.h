@@ -10,7 +10,7 @@ using namespace std;
 string intToString(int in);
 string doubleToString(double in);
 string& replaceSubStr(string& input, string oldSub, string newSub);
-bool endsWith(char * src, char* tail);
+bool endsWith(char * src, const char* tail);
 inline void error(string str){cerr<<str<<endl;exit(1);}
 inline double log(double x,double y){return log(y)/log(x);}
 inline double unLogrize(double score){return pow(2.0,score);}

@@ -34,10 +34,11 @@ jstream& operator<< (double val ){ if(dlevel) _io<<val;  return *this;}
 jstream& operator<< (long double val ){ if(dlevel) _io<<val;  return *this;}
 jstream& operator<< (void* val ){ if(dlevel) _io<<val;  return *this;}
 jstream& operator<< (char* val ){ if(dlevel) _io<<val;  return *this;}
+jstream& operator<< (const char* val ){ if(dlevel) _io<<val;  return *this;}
 jstream& operator<< (string val ){ if(dlevel) _io<<val;  return *this;}
 
 jstream& operator<< (streambuf* sb ){ if(dlevel) _io<<sb;  return *this;}
- 
+
 jstream& operator<< (jstream& ( *pf )(jstream&)){ if(dlevel) _io<<pf;  return *this;}
 jstream& operator<< (ios& ( *pf )(ios&)){ if(dlevel) _io<<pf;  return *this;}
 jstream& operator<< (ios_base& ( *pf )(ios_base&)){ if(dlevel) _io<<pf;  return *this;}
