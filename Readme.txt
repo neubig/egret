@@ -89,3 +89,5 @@ Major changes include:
   unknown words
 * Removing a flag that lexicalizes punctuation in Chinese parsing only for
   tree output (but not forest output)
+* Adding a Japanese parsing model (trained on the Japanese word dependency
+  corpus of Mori et al. 2014)
